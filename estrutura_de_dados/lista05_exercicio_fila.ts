@@ -1,5 +1,5 @@
 //import { questionInt } from "readline-sync"; -> puxa somente o método questionInt da biblioteca readline-sync
-import { Queue } from "../interface/Queue"
+import { Queue } from "./Queue"
 const leia = require("readline-sync"); //puxa "toda" a biblioteca readline-sync e suas configurações
 const cliente = new Queue<string>();
 
@@ -34,5 +34,4 @@ for (; opcao != 0; ){
         break;
 }
 }
-        // console.log("Programa Finalizado!");
-        // break;
+
